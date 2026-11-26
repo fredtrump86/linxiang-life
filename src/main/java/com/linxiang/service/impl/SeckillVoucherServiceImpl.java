@@ -1,0 +1,17 @@
+package com.linxiang.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.linxiang.entity.SeckillVoucher;
+import com.linxiang.mapper.SeckillVoucherMapper;
+import com.linxiang.service.ISeckillVoucherService;
+import org.springframework.stereotype.Service;
+
+/**
+ * 秒杀优惠券表，与优惠券是一对一关系 服务实现类
+ *
+ * @author 虎哥
+ * @since 2022-01-04
+ */
+@Service
+public class SeckillVoucherServiceImpl extends ServiceImpl<SeckillVoucherMapper, SeckillVoucher>
+    implements ISeckillVoucherService {}

@@ -31,3 +31,29 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local configuration and credentials ###
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+.aws/
+.ssh/
+.codex/
+.agents/
+
+### Generated output and local records ###
+node_modules/
+*.log
+logs/
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
+/frontend/design/
+/docs/backend-audit.json
+/docs/cloud-deployment-verification.json
